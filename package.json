@@ -1,23 +1,24 @@
 {
-  "name": "Kalidozza-theme",
-  "displayName": "Kalidozza Theme",
-  "description": "Kalidozza is a warm, handcrafted colorscheme for your coding and design environment. 🌅",
-  "publisher": "afrolino02",
-  "version": "0.0.1",
-  "icon": "./Kalidozza-compreses.png",
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "categories": [
-      "Themes"
-    ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Kalidozza",
-        "uiTheme": "vs-dark",
-        "path": "./themes/kalidozza-color-theme.json"
-      }
-    ]
-  }
+	"name": "Kalidozza-theme",
+	"displayName": "Kalidozza Theme",
+	"description": "Kalidozza is a warm, handcrafted colorscheme for your coding and design environment. 🌅",
+	"publisher": "afrolino02",
+	"version": "0.0.1",
+	"icon": "Kalidozza-compreses.png",
+	"repository": "https://github.com/Kalidozza-theme/vscode",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Kalidozza",
+				"uiTheme": "vs-dark",
+				"path": "./themes/kalidozza-color-theme.json"
+			}
+		]
+	}
 }
